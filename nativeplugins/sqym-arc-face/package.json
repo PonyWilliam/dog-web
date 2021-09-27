@@ -1,0 +1,38 @@
+{
+    "name": "虹软人脸检测sdk",
+    "id": "sqym-arc-face",
+    "version": "1.1.0",
+    "description": "虹软人脸检测、活体检测SDK",
+    "_dp_type":"nativeplugin",
+    "_dp_nativeplugin":{
+        "android": {
+            "plugins": [
+                {
+                    "type": "module",
+                    "name": "sqym-arc-face-plugin",
+                    "class": "com.sqym.ai.arcface_plugin.FaceCollectModule"
+                }
+            ],
+            "integrateType": "aar",
+			"dependencies": [
+				"com.alibaba:fastjson:1.1.46.android",
+				"com.facebook.fresco:fresco:1.13.0",
+				"com.github.bumptech.glide:glide:4.9.0"
+			],
+			"abis": [
+			    "armeabi-v7a"
+			],
+			"minSdkVersion": "21",
+            "parameters": {
+                "arcFaceAppid_android": {
+                    "des": "虹软APP_ID",
+                    "key": "ARC_FACE_APP_ID"
+                  },
+                  "arcFaceAppkey_android": {
+                    "des": "虹软人脸识别SDK_KEY",
+                    "key": "ARC_FACE_SDK_KEY"
+                  }
+            }
+        }
+    }
+}

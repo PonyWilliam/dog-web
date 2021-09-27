@@ -851,7 +851,8 @@
 		"backgroundColor": "#FFFFFF",
 		"app-plus":{
 			"titleView":false
-		}
+		},
+		"pageOrientation": "landscape"
 	},
 	"tabBar": {
 		"color": "#909399",

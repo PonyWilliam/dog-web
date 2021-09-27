@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/YanxinNet/uView#readme",
   "dependencies": {
+    "echarts": "^5.2.1",
     "mockjs": "^1.1.0",
+    "mpvue-echarts": "^0.3.2",
     "vue-i18n": "^8.20.0"
   }
 }
